@@ -1,14 +1,13 @@
 # ☕️ Site para Cafeteria
 
-Projeto desenvolvido como parte do curso de Desenvolvimento Web, para atender a um cliente que ja tem sua cafeteria fisica mas quer ampliar sua area de atuação, O objetivo foi criar uma presença digital simples, funcional e intuitiva para o negócio.
+Projeto desenvolvido durante o curso de Desenvolvimento Web, com o objetivo de atender a um cliente que já possui uma cafeteria física e deseja expandir sua presença online. O foco foi criar uma plataforma digital simples, funcional e intuitiva, que facilite a interação com clientes e fortaleça a presença da marca na web.
 
 ---
 
-## 🌟 Funcionalidades
-- 🛒 **Cardapio On-line:** Exibe os todos os itens disponíveis do cardápio e da a opção para entregar ou pegar no local.
-- ☕️ **Serviços:** Mostra os serviços oferecidos no cardapio
-- 📅 **Agendamento:** Formulário para agendar e já deixar sua mesa reservada.
-
+🌟 Funcionalidades
+	•	🛒 Cardápio Online Interativo: Navegue facilmente por todos os itens disponíveis e escolha entre delivery ou retirada no local, trazendo praticidade e comodidade para os clientes.
+	•	☕️ Serviços da Cafeteria: Descubra rapidamente todos os serviços oferecidos, desde cafés especiais até opções exclusivas da casa.
+	•	📅 Reserva de Mesas Simplificada: Agende sua mesa de forma rápida e segura pelo formulário online, garantindo uma experiência sem filas e totalmente prática.
 ---
 
 ## 💻 Tecnologias
