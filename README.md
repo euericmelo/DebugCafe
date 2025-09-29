@@ -4,13 +4,13 @@ Projeto desenvolvido durante o curso de Desenvolvimento Web, com o objetivo de a
 
 ---
 
-# 🌟 Funcionalidades
+## 🌟 Funcionalidades
 
-	🛒 Cardápio Online Interativo: Navegue facilmente por todos os itens disponíveis e escolha entre delivery ou retirada no local, trazendo praticidade e comodidade para os clientes.
+- 🛒 Cardápio Online Interativo: Navegue facilmente por todos os itens disponíveis e escolha entre delivery ou retirada no local, trazendo praticidade e comodidade para os clientes.
 
-	☕️ Serviços da Cafeteria: Descubra rapidamente todos os serviços oferecidos, desde cafés especiais até opções exclusivas da casa.
+- ☕️ Serviços da Cafeteria: Descubra rapidamente todos os serviços oferecidos, desde cafés especiais até opções exclusivas da casa.
 
-	📅 Reserva de Mesas Simplificada: Agende sua mesa de forma rápida e segura pelo formulário online, garantindo uma experiência sem filas e totalmente prática.
+- 📅 Reserva de Mesas Simplificada: Agende sua mesa de forma rápida e segura pelo formulário online, garantindo uma experiência sem filas e totalmente prática.
 ---
 
 ## 💻 Tecnologias
