@@ -5,20 +5,19 @@ text-decoration:none;
 }
 header{
 display:flex;
-background-color: green;
-
+background-color: rgb(40, 44, 40);
 }
 .menu{
 display:flex;
 align-items:center;
+justify-content: flex-end;
+margin: 1.5rem;
 }
 .menu ul{
 display:flex;
-align-items:center;
 text-decoration:none;
 gap: 20px;
 list-style-type:none;
-justify-content: flex-end;
 }
 .menu4{
 text-align:center;
@@ -36,10 +35,11 @@ text-align:center;
 
 }
 .rodape{
-background-color:green;
+background-color:rgb(40, 44, 40);
 text-align:center;
 list-style-type:none;
 width:100%;
+padding: 8px;
 }
 .redes{
 gap:70px;
