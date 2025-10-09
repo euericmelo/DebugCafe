@@ -1,60 +1,228 @@
-*{
-padding:0;
-margin:0;
-text-decoration:none;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  transition: 0.2s linear;
+  font-family: "Roboto", sans-serif;
 }
-header{
+
+body {
+  background-color:#000;
+}
+/* NAVBAR */
+.logo img {
+  width: 38px;
+  display:flex;
+  margin:2px;
+}
+.navbar{
+background-color:#000;
 display:flex;
-background-color: rgb(40, 44, 40);
+justify-content:space-between;
+align-items:center;
+padding-top:3px;
+position:fixed;
+top:0;
+z-index:99;
+border-bottom: 0.3px solid white;
+} 
+.nav a {
+text-decoration:none;
+color:white;
+gap: 3px;
+font-size:15px;
+margin-right:20px;
 }
-.menu{
+.nav a:hover {
+  color: red;
+  border-bottom: solid 0.1rem      white;
+  padding-bottom: 0.5rem;
+  font-size: 15px;
+}
+
+/* HOME */
+.home{
+background-size:cover;
+background-image: url("./imagens/imagem1.jpg");
+width:100%;
+}
+.debug{
+margin:8px;
+padding-top:4.5rem;
+}
+.home h1{
+font-size:14px;
+color:#fff;
+margin:8px;
+}
+.home h3{
+font-size:14px;
+color:#fff;
+}
+.home p{
+font-size:8px;
+color:#fff;
+padding:8px;
+}
+/*HOME BOTAO  */
+.btn {
+font-size:12px;
+background-color:red;
+  color: #fff;
+  padding: 5px 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+display:inline-block;
+margin-left:8px;
+}
+/* MENU SOBRE */
+.imgsobre{
+width:210px;
+height:220px;
+margin:4px;
+}
+.sobrenos{
+background-color:#000;
+color:#fff;
+padding:8px;
+text-align:center;
+}
+.sobrenos h6{
+font-size:12px;
+padding-top:3px;
+}
+.sobrenos p{
+font-size:7px;
+padding-top:3px;
+}
+.sobre{
 display:flex;
 align-items:center;
-justify-content: flex-end;
-margin: 1.5rem;
+margin:8px;
+border: 0.3px solid white;
 }
-.menu ul{
-display:flex;
-text-decoration:none;
-gap: 20px;
-list-style-type:none;
+.btnsobre{
+background-color:red;
+  color: #fff;
+  padding: 5px 8px;
+  cursor: pointer;
+  margin-top:12px;
+  border: none;
+  border-radius: 2px;
+display:inline-block;
+font-size:10px;
 }
-.menu4{
-text-align:center;
-display:flex;
-text-decoration:none;
-gap: 18px;
-list-style-type:none;
+/* MENU CAFES */
+.opcoes{
 justify-content:center;
+display:flex;
+gap:10px;
+padding-top:10px;
 }
-.logo{
+.opcao{
+background-color:#000;
+text-align:center;
+width:120px;
+border: 0.5px solid white;
+}
+.btnmenu{
+background-color:red;
+  color: #fff;
+  cursor: pointer-events
+  border: none;
+  display:inline-block;
+padding: 3px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.btnmenu a {
+color:#fff;
+font-size:12px;
+}
+.cafe1 img{
 width:50px;
+padding-top: 7px;
+padding-bottom:12px;
 }
-h1 , h2 {
-text-align:center;
-
+h3 {
+  text-align: center;
+  color:#fff;
+  padding:4rem;
 }
-.rodape{
-background-color:rgb(40, 44, 40);
-text-align:center;
-list-style-type:none;
-width:100%;
-padding: 8px;
+.tipocafe{
+font-size:12px;
+color:#fff;
 }
-.redes{
-gap:70px;
-}
-a {
+.preco{
+font-size:12px;
 color:white;
-font-size: 22px;
+padding-top:5px;
+margin:2px;
+}
+.preco del{
+font-size:7px;
+color:red;
+}
+
+/* NOSSO CLIENTES */
+strong{
+color:red;
+}
+.clientes{
+justify-content:center;
+display:flex;
+gap:10px;
+}
+.cliente{
+background-color:#000;
+text-align:center;
+width:120px;
+border: 0.3px solid white;
+}
+.cliente h6{
+color:#fff;
+}
+.cliente p{
+text-align:center;
+font-size:6px;
+color:white;
+padding:4px;
+}
+ .pss img{
+    margin: 0 auto;
+    width:40px;
+    padding:6px;
+    display:flex;
+    justify-content:center;
+    border-radius:100%;
+}
+.x img{
+width:20px;
+margin-top:8px;
+}
+.estrela img{
+width:70px;
 
 }
-.contato{
-background-color: white;
-border-radius: 7px solid black;
-width:100%;
-}
-.contato1{
-padding:10px;
 
+/* RODAPE DO SITE */
+
+.rodape {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.rodape img {
+  width: 38px;
+  margin: 7px;
+  padding: 7px;
+}
+.rodape p{
+text-align:center;
+color:#fff;
+padding:18px;
 }
