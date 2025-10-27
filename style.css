@@ -7,7 +7,6 @@
   transition: 0.2s linear;
   font-family: "Roboto", sans-serif;
 }
-
 body {
   background-color:#000;
 }
@@ -27,6 +26,7 @@ position:fixed;
 top:0;
 z-index:99;
 border-bottom: 0.3px solid white;
+width: 100%;
 } 
 .nav a {
 text-decoration:none;
@@ -34,7 +34,6 @@ color:white;
 gap: 3px;
 font-size:15px;
 margin-right:20px;
-width:100%;
 }
 .nav a:hover {
   color: red;
@@ -46,6 +45,7 @@ width:100%;
 /* HOME */
 .home{
 background-size:cover;
+background-position: center;
 background-image: url("./imagens/imagem1.jpg");
 width:100%;
 }
@@ -226,4 +226,8 @@ width:70px;
 text-align:center;
 color:#fff;
 padding:18px;
+}
+.mapa{
+ display: flex;
+ justify-content: center;
 }
